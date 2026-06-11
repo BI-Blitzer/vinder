@@ -2,6 +2,14 @@
 
 Swipe through new videos from your YouTube subscriptions. Tinder-style — keep it, skip it, or save it for later. Push your queue directly to a YouTube playlist when you're ready to watch.
 
+<p align="center">
+  <img src="screenshots/swipe.png" width="30%" alt="Swipe view" />
+  &nbsp;&nbsp;
+  <img src="screenshots/queue.png" width="30%" alt="Queue list" />
+  &nbsp;&nbsp;
+  <img src="screenshots/settings.png" width="30%" alt="Settings" />
+</p>
+
 ## What it does
 
 1. **Scan** — opens your YouTube subscriptions sidebar and finds channels with new content, then scrapes their latest videos
@@ -45,6 +53,12 @@ Chrome Web Store link coming soon. For now, sideload:
 - Brand/delegated channels (e.g. a separate YouTube channel under your Google account) are supported — use **Detect** to find and confirm the right one
 - Scan opens a YouTube tab briefly; this is normal
 - YouTube rate-limits aggressive scanning — vInder adds random delays between requests to stay under the radar
+
+## Disclaimer
+
+vInder relies on scraping YouTube's page structure (DOM selectors) and its internal InnerTube API, neither of which are officially supported for third-party use. **YouTube can change its layout or API at any time without notice**, which may break scanning, account detection, or playlist creation until the extension is updated.
+
+This is an unofficial tool, not affiliated with or endorsed by YouTube or Google. Use it at your own discretion.
 
 ## Tips
 
