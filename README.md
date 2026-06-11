@@ -48,6 +48,6 @@ Chrome Web Store link coming soon. For now, sideload:
 
 ## Tips
 
-If vInder saves you time and you want to support future projects, tips are welcome: **[paypal.me link]**
+If vInder saves you time, you can buy me a coffee — it goes toward future projects like this one: **[ko-fi.com/biblitzer](https://ko-fi.com/biblitzer)**
 
 No subscription, no paywall — vInder is and will stay free.
