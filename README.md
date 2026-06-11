@@ -25,6 +25,8 @@ Chrome Web Store link coming soon. For now, sideload:
 3. Enable **Developer mode** (top right)
 4. Click **Load unpacked** and select this folder
 
+**Tested on:** Brave and Chrome · Windows 10
+
 ## Setup
 
 1. Click the vInder toolbar icon to open the side panel
