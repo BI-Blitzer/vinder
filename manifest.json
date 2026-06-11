@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "vInder",
+  "version": "1.0.0",
+  "description": "Swipe through new videos from your YouTube subscriptions",
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms",
+    "scripting",
+    "sidePanel",
+    "cookies",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "side-panel.html"
+  },
+  "action": {
+    "default_title": "vInder"
+  },
+  "icons": {}
+}
